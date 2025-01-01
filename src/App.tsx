@@ -5,13 +5,12 @@ import Typography from "@mui/material/Typography";
 export default function App() {
   return (
     <>
-      <CssBaseline>
-        <Container maxWidth={"lg"} sx={{ backgroundColor: "primary.main" }}>
-          <Typography variant="h1" color="textPrimary">
-            Hello World
-          </Typography>
-        </Container>
-      </CssBaseline>
+      <CssBaseline />
+      <Container maxWidth={"lg"} sx={{ backgroundColor: "primary.main" }}>
+        <Typography variant="h1" color="textPrimary">
+          Hello World
+        </Typography>
+      </Container>
     </>
   );
 }
